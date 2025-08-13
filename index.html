@@ -1,23 +1,1465 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-<title>旅美日記│</title>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="icon" href="https://raw.githubusercontent.com/KanaSahoda/Tabinikki/refs/heads/main/Logo_TBNKFutura%20(1).ico" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&amp;Kosugi+Maru&amp;family=M+PLUS+1p:wght@800&amp;family=M+PLUS+Rounded+1c:wght@800&amp;family=Noto+Serif+JP:wght@900&amp;family=Kaisei+Decol:wght@400;700&amp;family=Potta+One&amp;family=Yuji+Mai&amp;family=Hachi+Maru+Pop&amp;display=swap" />
+  <style data-styled="" data-styled-version="6.1.15">
+    .gZsmIH {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      padding: 24px 33px 26px 33px;
+      color: rgba(51, 51, 51, 1);
+      min-height: 100vh;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .gZsmIH {
+        padding: 16px 20px 20px 20px;
+      }
+    }
+
+    /*!sc*/
+    data-styled.g532[id="sc-926169b5-0"] {
+      content: "gZsmIH,"
+    }
+
+    /*!sc*/
+  </style>
 </head>
+
 <body>
-  <h1>各国情報</h1>
-  <h2>グルメ</h2>
-  <blockquote>
-    <h3>朝食</h3>
-    <h3>スイーツ</h3>
-    <h3>各国名物</h3>
-  </blockquote>
-  <h2>美容</h2>
-  <blockquote>
-    <h3>コスメ</h3>
-    <h3>美容法</h3>
-    <h3>お土産</h3>
-  </blockquote>
-  
-<p>hi</p>
+  <style>
+    #nprogress {
+      pointer-events: none
+    }
+
+    #nprogress .bar {
+      background: #2299DD;
+      position: fixed;
+      z-index: 1600;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px
+    }
+
+    #nprogress .peg {
+      display: block;
+      position: absolute;
+      right: 0;
+      width: 100px;
+      height: 100%;
+      box-shadow: 0 0 10px #2299DD, 0 0 5px #2299DD;
+      opacity: 1;
+      -webkit-transform: rotate(3deg) translate(0px, -4px);
+      -ms-transform: rotate(3deg) translate(0px, -4px);
+      transform: rotate(3deg) translate(0px, -4px)
+    }
+
+    #nprogress .spinner {
+      display: block;
+      position: fixed;
+      z-index: 1600;
+      top: 15px;
+      right: 15px
+    }
+
+    #nprogress .spinner-icon {
+      width: 18px;
+      height: 18px;
+      box-sizing: border-box;
+      border: 2px solid transparent;
+      border-top-color: #2299DD;
+      border-left-color: #2299DD;
+      border-radius: 50%;
+      -webkit-animation: nprogress-spinner 400ms linear infinite;
+      animation: nprogress-spinner 400ms linear infinite
+    }
+
+    .nprogress-custom-parent {
+      overflow: hidden;
+      position: relative
+    }
+
+    .nprogress-custom-parent #nprogress .bar,
+    .nprogress-custom-parent #nprogress .spinner {
+      position: absolute
+    }
+
+    @-webkit-keyframes nprogress-spinner {
+      0% {
+        -webkit-transform: rotate(0deg)
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg)
+      }
+    }
+
+    @keyframes nprogress-spinner {
+      0% {
+        transform: rotate(0deg)
+      }
+
+      100% {
+        transform: rotate(360deg)
+      }
+    }
+  </style><!--$?--><template id="B:0"></template><!--/$-->
+  <script>(self.__next_s = self.__next_s || []).push(["https://accounts.google.com/gsi/client", {}])</script>
+  <script src="/_next/static/chunks/webpack-8668378052430c17.js" async=""></script>
+  <div hidden id="S:0">
+    <div class="sc-926169b5-0 gZsmIH"><template id="P:1"></template><!--$?--><template
+        id="B:2"></template><!--/$--><!--$?--><template id="B:3"></template><!--/$--></div>
+  </div>
+  <title>🌏旅美日記💄ポータルサイト</title>
+  <meta name="description" content="null" />
+  <meta property="og:title" content="🌏旅美日記💄ポータルサイト" />
+  <meta property="og:description" content="ヨーロッパ女子旅で“美”に出会おう “海外旅行×美容×グルメ”はここだけ！東欧・ヨーロッパ旅行✈️忘れられない女子旅のヒントをお届け・お仕事のご依頼はDMまで✉️" />
+  <meta property="og:url" content="https://tbnk.jp" />
+  <meta property="og:site_name" content="🌏旅美日記💄" />
+  <!--
+  <meta property="og:image"
+    content="" />
+  -->
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="🌏旅美日記💄" />
+  <meta name="twitter:title" content="🌏旅美日記💄ポータルサイト" />
+  <meta name="twitter:description" content="ヨーロッパ女子旅で“美”に出会おう “海外旅行×美容×グルメ”はここだけ！東欧・ヨーロッパ旅行✈️忘れられない女子旅のヒントをお届け・お仕事のご依頼はDMまで✉️" />
+  <!--
+  <meta name="twitter:image"
+    content="" />
+  -->
+  <div hidden id="S:2"></div>
+  <script>$RC = function (b, c, e) { c = document.getElementById(c); c.parentNode.removeChild(c); var a = document.getElementById(b); if (a) { b = a.previousSibling; if (e) b.data = "$!", a.setAttribute("data-dgst", e); else { e = b.parentNode; a = b.nextSibling; var f = 0; do { if (a && 8 === a.nodeType) { var d = a.data; if ("/$" === d) if (0 === f) break; else f--; else "$" !== d && "$?" !== d && "$!" !== d || f++ } d = a.nextSibling; e.removeChild(a); a = d } while (a); for (; c.firstChild;)e.insertBefore(c.firstChild, a); b.data = "$" } b._reactRetry && b._reactRetry() } }; $RC("B:2", "S:2")</script>
+  <div hidden id="S:3"></div>
+  <style data-styled="" data-styled-version="6.1.15">
+    .fZPFwE {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 21px;
+      padding: 2px;
+      color: rgba(51, 51, 51, 1);
+      cursor: pointer;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .fZPFwE {
+        width: 16px;
+      }
+    }
+
+    /*!sc*/
+    .fZPFwE:disabled {
+      pointer-events: none;
+      color: rgba(204, 204, 204, 1);
+    }
+
+    /*!sc*/
+    data-styled.g41[id="sc-a6efde13-0"] {
+      content: "fZPFwE,"
+    }
+
+    /*!sc*/
+    .dBTAmH {
+      display: flex;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      width: 17px;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .dBTAmH {
+        width: 12px;
+      }
+    }
+
+    /*!sc*/
+    .dBTAmH svg {
+      width: 100%;
+      fill: currentColor;
+    }
+
+    /*!sc*/
+    data-styled.g42[id="sc-a6efde13-1"] {
+      content: "dBTAmH,"
+    }
+
+    /*!sc*/
+    @font-face {
+      font-family: 'Togalite';
+      src: url('https://prd.resource-api.lit.link/v1/fonts/togalite?weight=bold') format('woff2'), url('https://prd.resource-api.lit.link/v1/fonts/togalite?weight=medium') format('woff2'), url('https://prd.resource-api.lit.link/v1/fonts/togalite?weight=regular') format('woff2');
+    }
+
+    /*!sc*/
+    @font-face {
+      font-family: 'DokiDokiFantasia';
+      src: url('https://prd.resource-api.lit.link/v1/fonts/doki_doki_fantasia?weight=regular') format('woff2');
+    }
+
+    /*!sc*/
+    data-styled.g564[id="sc-6bdd62e0-0"] {
+      content: "eKrbiR,"
+    }
+
+    /*!sc*/
+    .iBTfdu {
+      margin-bottom: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    /*!sc*/
+    data-styled.g565[id="sc-12d03594-0"] {
+      content: "iBTfdu,"
+    }
+
+    /*!sc*/
+    .iIdpRl {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      background-color: rgba(255, 255, 255, 1);
+      border-radius: 100px;
+      padding: 2px 7px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-weight: 700;
+      color: rgba(90, 71, 84, 1);
+    }
+
+    /*!sc*/
+    data-styled.g566[id="sc-12d03594-1"] {
+      content: "iIdpRl,"
+    }
+
+    /*!sc*/
+    .jTGRnk {
+      display: block;
+      font-size: 1.4rem;
+      padding-right: 5px;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .jTGRnk {
+        font-size: 1.4rem;
+        padding-right: 5px;
+      }
+    }
+
+    /*!sc*/
+    data-styled.g567[id="sc-12d03594-2"] {
+      content: "jTGRnk,"
+    }
+
+    /*!sc*/
+    .cscVXF {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 0;
+    }
+
+    /*!sc*/
+    data-styled.g568[id="sc-12d03594-3"] {
+      content: "cscVXF,"
+    }
+
+    /*!sc*/
+    .iwfhNi {
+      font-size: 1rem;
+      opacity: 0.7;
+      margin-bottom: -4px;
+      padding-bottom: 5px;
+      padding-right: 5px;
+    }
+
+    /*!sc*/
+    data-styled.g569[id="sc-12d03594-4"] {
+      content: "iwfhNi,"
+    }
+
+    /*!sc*/
+    .hxgyQd {
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    /*!sc*/
+    data-styled.g570[id="sc-1a10b567-0"] {
+      content: "hxgyQd,"
+    }
+
+    /*!sc*/
+    .gyCPPT {
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .gyCPPT {
+        left: 0;
+        width: 100%;
+      }
+    }
+
+    /*!sc*/
+    data-styled.g571[id="sc-d0a43c35-0"] {
+      content: "gyCPPT,"
+    }
+
+    /*!sc*/
+    .bPtvfV {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    /*!sc*/
+    data-styled.g572[id="sc-d0a43c35-1"] {
+      content: "bPtvfV,"
+    }
+
+    /*!sc*/
+    .colFWW {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      overflow: hidden;
+      image-orientation: from-image;
+    }
+
+    /*!sc*/
+    data-styled.g573[id="sc-d0a43c35-2"] {
+      content: "colFWW,"
+    }
+
+    /*!sc*/
+    .ljJeXn {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 3;
+      width: 100%;
+      height: 100%;
+    }
+
+    /*!sc*/
+    data-styled.g574[id="sc-d0a43c35-3"] {
+      content: "ljJeXn,"
+    }
+
+    /*!sc*/
+    .hujvuf {
+      position: relative;
+      max-width: 480px;
+      margin: 10px auto 20px auto;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .hujvuf {
+        margin: 6px auto 15px auto;
+      }
+    }
+
+    /*!sc*/
+    .hujvuf .profile-basic-head {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .hujvuf .profile-basic-head {
+        margin-bottom: 10px;
+      }
+    }
+
+    /*!sc*/
+    .hujvuf .profile-basic-head__name {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .hujvuf .profile-basic-head__name {
+        margin-bottom: 5px;
+      }
+    }
+
+    /*!sc*/
+    data-styled.g577[id="sc-2cafac-0"] {
+      content: "hujvuf,"
+    }
+
+    /*!sc*/
+    .wZCrE {
+      position: relative;
+    }
+
+    /*!sc*/
+    .wZCrE .creator-detail-profile-body__text-wrap {
+      position: relative;
+      overflow: hidden;
+      height: 54px;
+    }
+
+    /*!sc*/
+    .wZCrE .creator-detail-profile-body__text-wrap.has-readmore {
+      height: auto;
+    }
+
+    /*!sc*/
+    .wZCrE .creator-detail-profile-body__text-wrap.is-edit {
+      height: auto;
+      margin: 40px 0 -10px 0;
+    }
+
+    /*!sc*/
+    .wZCrE .creator-detail-profile-body__text {
+      margin: 0;
+      font-size: 1rem;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-weight: 700;
+      color: rgba(90, 71, 84, 1);
+      letter-spacing: 0.06em;
+      text-align: center;
+      white-space: pre-wrap;
+    }
+
+    /*!sc*/
+    .wZCrE .creator-detail-profile-body__link {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: rgba(90, 71, 84, 1);
+    }
+
+    /*!sc*/
+    data-styled.g578[id="sc-55de3264-0"] {
+      content: "wZCrE,"
+    }
+
+    /*!sc*/
+    .izKEue {
+      position: relative;
+      z-index: 1;
+      width: 120px;
+      height: 120px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 14px;
+      cursor: pointer;
+      padding: 4px;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .izKEue {
+        width: 88px;
+        height: 88px;
+        margin-bottom: 10px;
+      }
+    }
+
+    /*!sc*/
+    .izKEue .creator-detail-profile-head__picture-wrap {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /*!sc*/
+    .izKEue .creator-detail-profile-head__picture-wrap .creator-detail-profile-head__img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 8px;
+      z-index: 0;
+      background-color: rgba(0, 0, 0, 1);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      image-orientation: from-image;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    /*!sc*/
+    .izKEue .creator-detail-profile-head__edit-img {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 1);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      image-orientation: from-image;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    /*!sc*/
+    .izKEue .creator-detail-profile-head__edit {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      background: rgba(0, 0, 0, 0.47);
+      border: none;
+      outline: none;
+      color: rgba(255, 255, 255, 1);
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    /*!sc*/
+    .izKEue .creator-detail-profile-head__edit__inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    /*!sc*/
+    .izKEue .creator-detail-profile-head__edit__icon {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 30px;
+      fill: currentColor;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .izKEue .creator-detail-profile-head__edit__icon {
+        width: 23px;
+      }
+    }
+
+    /*!sc*/
+    data-styled.g579[id="sc-2747b9ee-0"] {
+      content: "izKEue,"
+    }
+
+    /*!sc*/
+    .jhWuBj img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .jhWuBj img {
+        width: 88px;
+        height: 88px;
+      }
+    }
+
+    /*!sc*/
+    data-styled.g580[id="sc-1142def-0"] {
+      content: "jhWuBj,"
+    }
+
+    /*!sc*/
+    .kNSOeD {
+      margin: 0;
+      font-weight: 700;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 2rem;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .kNSOeD {
+        font-size: 1.4rem;
+      }
+    }
+
+    /*!sc*/
+    data-styled.g583[id="sc-b5df213d-0"] {
+      content: "kNSOeD,"
+    }
+
+    /*!sc*/
+    .kxsZU {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 7px 0 -8px 0;
+      max-width: 480px;
+      padding: 0 30px;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .kxsZU {
+        padding: 0 20px;
+        margin: 5px 0 -8px 0;
+      }
+    }
+
+    /*!sc*/
+    .kxsZU .profile-basic-social__social-child {
+      flex-shrink: 0;
+      width: 40px;
+      height: 40px;
+      padding: 0 2px;
+      margin-bottom: 6px;
+    }
+
+    /*!sc*/
+    .kxsZU .profile-basic-social__social-child a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /*!sc*/
+    .kxsZU .profile-basic-social__social-child a:visited {
+      color: inherit;
+    }
+
+    /*!sc*/
+    .kxsZU .profile-basic-social__social-child a div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    /*!sc*/
+    .kxsZU .profile-basic-social__social-child-icon svg {
+      width: 100%;
+      fill: currentColor;
+    }
+
+    /*!sc*/
+    data-styled.g585[id="sc-3975574f-0"] {
+      content: "kxsZU,"
+    }
+
+    /*!sc*/
+    .fRbZDY {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      max-width: 76px;
+    }
+
+    /*!sc*/
+    .fRbZDY img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    /*!sc*/
+    .fRbZDY svg {
+      width: 100%;
+      fill: currentColor;
+    }
+
+    /*!sc*/
+    .fRbZHR {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      max-width: 80px;
+    }
+
+    /*!sc*/
+    .fRbZHR img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    /*!sc*/
+    .fRbZHR svg {
+      width: 100%;
+      fill: currentColor;
+    }
+
+    /*!sc*/
+    data-styled.g586[id="sc-b1398706-0"] {
+      content: "fRbZDY,fRbZHR,"
+    }
+
+    /*!sc*/
+    .fVucfX {
+      margin-bottom: 14px;
+    }
+
+    /*!sc*/
+    .fVucfX a {
+      display: inline-block;
+      color: inherit !important;
+    }
+
+    /*!sc*/
+    data-styled.g587[id="sc-e42924d4-0"] {
+      content: "fVucfX,"
+    }
+
+    /*!sc*/
+    .imihkm {
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    /*!sc*/
+    .imihkm .creator-detail-links__col {
+      margin-bottom: 14px;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .imihkm .creator-detail-links__col {
+        margin-bottom: 14px;
+      }
+    }
+
+    /*!sc*/
+    .imihkm .creator-detail-links__col:last-of-type {
+      margin-bottom: 0;
+    }
+
+    /*!sc*/
+    .imihkm .creator-detail-links__col a {
+      color: inherit;
+    }
+
+    /*!sc*/
+    .imihkm .creator-detail-edit-links__col {
+      margin-bottom: 24px;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .imihkm .creator-detail-edit-links__col {
+        margin-bottom: 16px;
+      }
+    }
+
+    /*!sc*/
+    .imihkm .creator-detail-edit-links__col:last-of-type {
+      margin-bottom: 0;
+    }
+
+    /*!sc*/
+    data-styled.g588[id="sc-6d0b3c3e-0"] {
+      content: "imihkm,"
+    }
+
+    /*!sc*/
+    .jaGkaT {
+      width: 56px;
+      height: 56px;
+      margin-right: 12px;
+      border-radius: 9px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      overflow: hidden;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .jaGkaT {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    /*!sc*/
+    .jaGkaT .button-link-thumbnail__bg {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    /*!sc*/
+    .jaGkaT .button-link-thumbnail-edit {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    /*!sc*/
+    .jaGkaT .button-link-thumbnai-edit__preview {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      opacity: 0.8;
+    }
+
+    /*!sc*/
+    .jaGkaT .button-link-thumbnail-edit__uploading {
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    /*!sc*/
+    .jaGkaT .button-link-thumbnail-edit__add-icon-wrap {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      padding: 6px;
+    }
+
+    /*!sc*/
+    .jaGkaT .button-link-thumbnail-edit__add-icon-wrap svg {
+      fill: currentColor;
+    }
+
+    /*!sc*/
+    data-styled.g589[id="sc-718c4e69-0"] {
+      content: "jaGkaT,"
+    }
+
+    /*!sc*/
+    .hUgGYu {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /*!sc*/
+    .hUgGYu svg {
+      fill: rgba(90, 71, 84, 1);
+      width: 100%;
+    }
+
+    /*!sc*/
+    data-styled.g590[id="sc-718c4e69-1"] {
+      content: "hUgGYu,"
+    }
+
+    /*!sc*/
+    .iOHcRC {
+      margin-bottom: 0;
+      font-size: 1.4rem;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      line-height: 1.3571428571428572;
+      word-break: break-all;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .iOHcRC {
+        font-size: 1.2rem;
+      }
+    }
+
+    /*!sc*/
+    data-styled.g593[id="sc-6ef3514d-0"] {
+      content: "iOHcRC,"
+    }
+
+    /*!sc*/
+    .fLZBZO {
+      margin: 3px 0 0 0;
+      font-size: 1rem;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-weight: 700;
+      line-height: 1.5;
+      word-break: break-all;
+    }
+
+    /*!sc*/
+    .csUDIR {
+      margin: 3px 0 0 0;
+      font-size: 1rem;
+      font-family: 'Noto Sans JP', sans-serif;
+      line-height: 1.5;
+      word-break: break-all;
+    }
+
+    /*!sc*/
+    data-styled.g594[id="sc-6ef3514d-1"] {
+      content: "fLZBZO,csUDIR,"
+    }
+
+    /*!sc*/
+    .fwDaLq {
+      text-decoration: none;
+    }
+
+    /*!sc*/
+    .fwDaLq:hover {
+      text-decoration: none;
+    }
+
+    /*!sc*/
+    data-styled.g597[id="sc-4dc28656-2"] {
+      content: "fwDaLq,"
+    }
+
+    /*!sc*/
+    .kzrusi {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      margin-top: 0;
+      color: rgba(90, 71, 84, 1);
+      border-radius: 8px;
+      padding: 7px;
+      background: rgba(255, 255, 255, 1);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.13);
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .kzrusi {
+        padding: 5px;
+      }
+    }
+
+    /*!sc*/
+    .kzrusi .button-link-pattern1__wrap {
+      display: flex;
+    }
+
+    /*!sc*/
+    .kzrusi .button-link-pattern1-edit__wrap {
+      padding: 10px 0 0 0;
+    }
+
+    /*!sc*/
+    .kzrusi .button-link-pattern1__main {
+      padding: 3px 0 0 0;
+      text-decoration: none;
+    }
+
+    /*!sc*/
+    data-styled.g607[id="sc-b0007061-0"] {
+      content: "kzrusi,"
+    }
+
+    /*!sc*/
+    .gDewnp {
+      position: relative;
+      z-index: 1;
+      color: rgba(90, 71, 84, 1);
+      margin-top: 0;
+      position: relative;
+      z-index: 1;
+      padding: 14px 10px;
+      border-radius: 9px;
+      background: rgba(255, 255, 255, 1);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.13);
+    }
+
+    /*!sc*/
+    .gDewnp iframe {
+      max-width: 100%;
+    }
+
+    /*!sc*/
+    .gDewnp .text-link-pattern1-edit__wrap {
+      padding-top: 10px;
+    }
+
+    /*!sc*/
+    data-styled.g612[id="sc-a470981d-1"] {
+      content: "gDewnp,"
+    }
+
+    /*!sc*/
+    .eHTpAk a {
+      text-decoration: underline;
+    }
+
+    /*!sc*/
+    data-styled.g613[id="sc-a470981d-2"] {
+      content: "eHTpAk,"
+    }
+
+    /*!sc*/
+    .gcPDLH {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      min-height: 30px;
+      overflow: hidden;
+      position: relative;
+      z-index: 1;
+    }
+
+    /*!sc*/
+    .gcPDLH img {
+      max-width: 100%;
+    }
+
+    /*!sc*/
+    data-styled.g646[id="sc-ae4f6c25-0"] {
+      content: "gcPDLH,"
+    }
+
+    /*!sc*/
+    .kSBSIM {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      color: rgba(90, 71, 84, 1);
+      margin-top: 0;
+      border-radius: 9px;
+      background: rgba(255, 255, 255, 1);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.13);
+    }
+
+    /*!sc*/
+    .kSBSIM img {
+      border-radius: 9px;
+    }
+
+    /*!sc*/
+    .kSBSIM .single-image-link-pattern1__main {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      padding: 10px 10px 5px 10px;
+    }
+
+    /*!sc*/
+    .kSBSIM .single-image-link-pattern1__text-bg {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 76px;
+      z-index: 1;
+    }
+
+    /*!sc*/
+    data-styled.g647[id="sc-e0cacee4-0"] {
+      content: "kSBSIM,"
+    }
+
+    /*!sc*/
+    .dwfEIQ {
+      position: relative;
+      left: 0;
+      top: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+    }
+
+    /*!sc*/
+    .dwfEIQ .text-content__title {
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding: 3px 9px;
+      background: rgba(255, 255, 255, 1);
+      border-radius: 7px;
+    }
+
+    /*!sc*/
+    .dwfEIQ .text-content__description {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      padding: 2px 5px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 7px;
+    }
+
+    /*!sc*/
+    .dwfEIQ .text-content__description p {
+      margin: 0;
+    }
+
+    /*!sc*/
+    data-styled.g648[id="sc-e0cacee4-1"] {
+      content: "dwfEIQ,"
+    }
+
+    /*!sc*/
+    .eBHYlf {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+      font-display: optional;
+    }
+
+    /*!sc*/
+    .eBHYlf .footer-profile__logo {
+      fill: currentColor;
+      width: 100%;
+      color: rgba(90, 71, 84, 1);
+    }
+
+    /*!sc*/
+    .eBHYlf .footer-profile__sign {
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 1.3rem;
+    }
+
+    /*!sc*/
+    .eBHYlf .footer-profile__sign a {
+      font-display: optional;
+      color: rgba(90, 71, 84, 1);
+      text-decoration: underline;
+    }
+
+    /*!sc*/
+    .eBHYlf .footer-profile__sign a:hover {
+      text-decoration: none;
+    }
+
+    /*!sc*/
+    .eBHYlf .footer-profile__copy {
+      font-display: optional;
+      text-align: center;
+      font-size: 1rem;
+      color: rgba(90, 71, 84, 1);
+    }
+
+    /*!sc*/
+    data-styled.g723[id="sc-7f84b3b7-0"] {
+      content: "eBHYlf,"
+    }
+
+    /*!sc*/
+    .gMmmRQ {
+      margin-bottom: 5px;
+    }
+
+    /*!sc*/
+    .gMmmRQ a {
+      display: inline-block;
+      color: rgba(90, 71, 84, 1);
+    }
+
+    /*!sc*/
+    data-styled.g724[id="sc-7f84b3b7-1"] {
+      content: "gMmmRQ,"
+    }
+
+    /*!sc*/
+    .koMwqF {
+      position: relative;
+    }
+
+    /*!sc*/
+    data-styled.g752[id="sc-5e241471-0"] {
+      content: "koMwqF,"
+    }
+
+    /*!sc*/
+    .cxVAAX {
+      position: relative;
+      z-index: 2;
+      margin-bottom: 100px;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .cxVAAX {
+        margin-bottom: 70px;
+      }
+    }
+
+    /*!sc*/
+    data-styled.g753[id="sc-d296b0f-0"] {
+      content: "cxVAAX,"
+    }
+
+    /*!sc*/
+    .kNfZNI {
+      position: sticky;
+      z-index: 3;
+      top: 0;
+      left: 0;
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .kNfZNI {
+        max-width: auto;
+      }
+    }
+
+    /*!sc*/
+    data-styled.g754[id="sc-d296b0f-1"] {
+      content: "kNfZNI,"
+    }
+
+    /*!sc*/
+    .gFlTwM {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    /*!sc*/
+    data-styled.g755[id="sc-d296b0f-2"] {
+      content: "gFlTwM,"
+    }
+
+    /*!sc*/
+    .gOWJfe {
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      overflow: hidden;
+      backdrop-filter: blur(30px) brightness(0.9);
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .gOWJfe {
+        width: 36px;
+        height: 36px;
+      }
+    }
+
+    /*!sc*/
+    data-styled.g756[id="sc-d296b0f-3"] {
+      content: "gOWJfe,"
+    }
+
+    /*!sc*/
+    .jAkGzL {
+      margin-top: 40px;
+    }
+
+    /*!sc*/
+    @media screen and (max-width: 768px) {
+      .jAkGzL {
+        margin-top: 20px;
+      }
+    }
+
+    /*!sc*/
+    data-styled.g757[id="sc-d296b0f-4"] {
+      content: "jAkGzL,"
+    }
+
+    /*!sc*/
+    .jnJcWU {
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      max-width: 480px;
+    }
+
+    /*!sc*/
+    data-styled.g758[id="sc-d296b0f-5"] {
+      content: "jnJcWU,"
+    }
+
+    /*!sc*/
+
+    ul{
+  padding-left:0;
+}
+
+li{
+  list-style:none;
+}
+  </style>
+  <link rel="preload" as="image"
+    href="https://prd.storage.lit.link/images/creators/0931575a-dca2-4974-96ab-3d9c1db13a80/91a69021-d1f0-42c1-8e80-fb5c861e2e10.png" />
+  <div hidden id="S:1">
+    <div class="sc-6bdd62e0-0 eKrbiR">
+      <div class="sc-d0a43c35-0 gyCPPT">
+        <div class="sc-d0a43c35-1 bPtvfV"></div>
+        <div style="background-color:rgb(221, 239, 250)" class="sc-d0a43c35-2 colFWW"></div>
+        <div class="sc-d0a43c35-3 ljJeXn"></div>
+      </div>
+      <main class="sc-d296b0f-0 cxVAAX lower-main">
+        <section style="color:rgba(90, 71, 84, 1)" class="sc-2cafac-0 hujvuf">
+          <div class="profile-basic-head">
+            <div class="sc-e42924d4-0 fVucfX"><a class="litlink-cv-profile-footer-logo-click"
+                href="https://lit.link?utm_source=lit.link_top&amp;utm_medium=logo&amp;utm_campaign=click">
+                <div class="sc-b1398706-0 fRbZDY"><!--$!--><template
+                    data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$--></div>
+              </a></div>
+            <div class="sc-2747b9ee-0 izKEue">
+              <div class="creator-detail-profile-head__picture-wrap">
+                <div class="sc-1142def-0 jhWuBj"><img alt="profile icon" loading="lazy" width="240" height="240"
+                    decoding="async" data-nimg="1" style="color:transparent"
+                    src="https://raw.githubusercontent.com/KanaSahoda/Tabinikki/refs/heads/main/Logo_TBNKFutura%20(1).svg" />
+                </div>
+              </div>
+            </div>
+            <div class="profile-basic-head__content">
+              <div class="profile-basic-head__name">
+                <h1 font-family="&#x27;Noto Sans JP&#x27;, sans-serif" font-weight="700" font-size="medium"
+                  class="sc-b5df213d-0 kNSOeD">🌏旅美日記💄ヨーロッパの美容とグルメ│東欧・海外旅行のお得情報│女子旅</h1>
+              </div>
+              <ul class="sc-3975574f-0 kxsZU">
+                <li class="profile-basic-social__social-child"><a href="https://instagram.com/tbnk.jp"
+                    rel="noreferrer" target="_blank">
+                    <div class="profile-basic-social__social-child-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="nonzero"
+                          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334">
+                        </path>
+                      </svg></div>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="sc-55de3264-0 wZCrE">
+            <div class="creator-detail-profile-body__text-wrap has-readmore">
+              <p class="creator-detail-profile-body__text">\ヨーロッパ女子旅で"美"に出会おう/
+“海外旅行×美容×グルメ”はここだけ！
+東欧・ヨーロッパ旅行✈️
+忘れられない女子旅のヒントをお届け　
+お仕事のご依頼はDMまで✉️</p>
+            </div>
+          </div>
+        </section>
+        <div style="color:rgba(90, 71, 84, 1)" class="sc-6d0b3c3e-0 imihkm">
+          <ul>
+            
+            <li class="creator-detail-links__col"><a href="https://instagram.com/tbnk.jp" target="_blank"
+                rel="noreferrer" class="sc-4dc28656-2 fwDaLq">
+                <div class="sc-b0007061-0 kzrusi">
+                  <div class="button-link-pattern1__wrap">
+                    <div class="button-link-pattern1__thumb">
+                      <div class="sc-718c4e69-0 jaGkaT">
+                        <div class="sc-718c4e69-1 hUgGYu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <defs>
+                              <style>
+                                .icon-btn-pencil-1 {
+                                  fill-rule: evenodd;
+                                }
+                              </style>
+                            </defs>
+                            <g>
+                              <path class="icon-btn-pencil-1"
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                              ></path>
+                            </g>
+                          </svg></div>
+                      </div>
+                    </div>
+                    <div class="button-link-pattern1__main">
+                      <h2 class="sc-6ef3514d-0 iOHcRC">Instagram</h2>
+                      <div class="sc-6ef3514d-1 fLZBZO">過去作品・実績はこちらをご確認ください。</div>
+                    </div>
+                  </div>
+                </div>
+              </a></li>
+            <li class="creator-detail-links__col">
+              <div class="sc-a470981d-0 lmemzS">
+                <div class="sc-a470981d-1 gDewnp">
+                  <div class="text-link-pattern1__wrap">
+                    <div class="text-link-pattern1__main">
+                      <h2 style="text-align:left" class="sc-6ef3514d-0 iOHcRC">お問合せ先</h2>
+                      <div style="text-align:left" class="sc-6ef3514d-1 sc-a470981d-2 csUDIR eHTpAk">
+                        Instagram @tbnk.jpまでダイレクトメール✉️
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="sc-d296b0f-5 jnJcWU">
+          <div class="sc-5e241471-0 koMwqF">
+            <div id="ForM-banner_profile_under_1"></div>
+          </div>
+        </div>
+      </main>
+      <footer class="sc-7f84b3b7-0 eBHYlf">
+        <div class="sc-7f84b3b7-1 gMmmRQ">
+            <div class="sc-b1398706-0 fRbZHR"><!--$!--><template
+                data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$--></div>
+         </div>
+          <small class="footer-profile__copy">©︎tbnk.jp All Rights Reserved</small>
+      </footer>
+    </div>
+  </div>
+  <script>$RS = function (a, b) { a = document.getElementById(a); b = document.getElementById(b); for (a.parentNode.removeChild(a); a.firstChild;)b.parentNode.insertBefore(a.firstChild, b); b.parentNode.removeChild(b) }; $RS("S:1", "P:1")</script>
+  <script>$RC("B:0", "S:0")</script>
 </body>
+
 </html>
